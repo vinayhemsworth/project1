@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .profile {
+            text-align: center;
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #2575fc;
+        }
+
+        .profile h2 {
+            margin: 10px 0;
+            font-size: 1.8rem;
+        }
+
+        .profile p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .account-info {
+            padding: 20px;
+        }
+
+        .account-info h3 {
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .account-info .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .account-info .info span {
+            font-weight: bold;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background: #2575fc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #1e5fd0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="five" href="home.html">home</a>
+        <a class="five" href="contactus.html">contact us</a>
+        <a class="five" href="account.html">account</a>
+        <a class="five" href="help.html">help</a>
+        <h1>My Account</h1>
+    </header>
+
+    <main>
+        <div class="profile">
+            <img src="https://via.placeholder.com/120" alt="Profile Picture">
+            <h2>John Doe</h2>
+            <p>johndoe@example.com</p>
+        </div>
+
+        <div class="account-info">
+            <h3>Account Information</h3>
+            <div class="info">
+                <span>Username:</span>
+                <span>johndoe</span>
+            </div>
+            <div class="info">
+                <span>Joined:</span>
+                <span>January 1, 2020</span>
+            </div>
+            <div class="info">
+                <span>Membership:</span>
+                <span>Premium</span>
+            </div>
+
+            <button>Edit Profile</button>
+            <button>Logout</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Account Page. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

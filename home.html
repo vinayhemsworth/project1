@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        nav a:hover {
+            background: #003f7f;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        /* Navbar links */
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Hover effects */
+        .navbar a:hover {
+            background-color: #555;
+            color: #f1f1f1;
+        }
+
+        /* Active state (optional) */
+        .navbar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }</style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a class="five active" href="home.html">Home</a>
+            <a class="five" href="contactus.html">Contact Us</a>
+            <a class="five" href="account.html">Account</a>
+            <a class="five" href="help.html">Help</a>
+        </div>
+        <h1>My Account</h1>
+        <h1>Welcome to My Homepage</h1>
+    </header>
+
+
+    <main>
+        <h2>About This Page</h2>
+        <p>This is a simple homepage created using HTML and CSS. Customize it as you like!</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple Homepage. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
